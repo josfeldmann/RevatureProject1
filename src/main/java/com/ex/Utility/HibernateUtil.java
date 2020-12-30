@@ -22,9 +22,10 @@ public class HibernateUtil {
                 Configuration configuration = new Configuration();
 
                 // Hibernate settings equivalent to hibernate.cfg.xml's properties
+                //Change these
                 String url = "jdbc:postgresql://database-18.ck6vrhldzog7.us-east-1.rds.amazonaws.com:5432/postgres";
                 String username = "josfeldmann";
-                String password = "Elliotsarat";
+                String password = "password";
 
                 Properties props = new Properties();
                 props.setProperty("hibernate.connection.url", url);
